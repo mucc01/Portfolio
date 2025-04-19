@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Natphalin</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Preferences</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Natphalin</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Preferences</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/IMG_6080.JPG" alt="Natphalin profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Natphalin</h1>
+            <p class="section__text__p2">Chulalongkorn, Arts Faculty student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Untitled_Artwork 1.pdf')">
+                    My Drawing!</button>
+                <button class="btn btn-color-" onclick="location.href='./#contact'">
+                    Contact info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/github.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://github.com/mucc01'">
+                <img src="./assets/1916008_instagram_logo_media_social_icon.png" alt="My Instragram profile" class="icon" onclick="location.href='https:instagram.com/muccnatph/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+          <div class="section-container">
+            <div class="section__pic-container">
+            <img src="./assets/IMG_0532.jpg" alt="Profile picture" class="about-pic"/>
+          </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                    <h3>Education</h3>
+                    <p>High School Program – Spanish <br />Language – Japanese (JLPT N3)</p>
+                </div>
+                <div class="details-container"><img src="./assets/education.png" alt="education icon" class="icon" />
+                    <h3>Hobby!</h3>
+                    <p>Arts Practice – Digital Illustration♡<br />𖦹Creative Arts – Ballroom Dance</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    I'm a creative and curious individual with a passion for languages, the arts, and technology. I’ve studied Spanish in high school and earned a Japanese JLPT N3 certificate, which deepened my appreciation for different cultures. 
+                    My hobbies are ballroom dancing like tango and digital illustration, I love exploring self-expression through movement and visual storytelling. I'm also a fan of retro games and vintage tech, finding joy in nostalgic design. 
+                    As a beginner in coding, I'm excited to learn and grow in tech while embracing inclusive, cross-disciplinary creativity.
+                </p>
+            </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png"alt="arrow icon" class="icon arrow"
+      onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Preferences♬⋆.˚</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">ᶻ 𝗓 𐰁 .ᐟ</h2>
+                    <div class="artificial-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Clubs I joined at Chulalongkorn University</h3>
+                                <p>
+                                    <a href="https://www.instagram.com/artsstreetofficial?igsh=MTVpczM4MDl0cmdwbg==">Artsstreet</a> &
+                                    <a href="https://www.instagram.com/leelartaksorncu?igsh=YnRsY2QwOXR5ZXRm">Leelartaksorn</a>
+                                    
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Anime & Manga</h3>
+                                <p>
+                                    <a href="https://youtube.com/playlist?list=PL15tXXRIVdTAKqLP1AHBwJsJQGn9GwNST&si=yrzHqaumY5fRL0Ok">Hunter X Hunter</a> &
+                                    <a href="https://youtu.be/oC0hINhFICM?si=guFh7ftfV-3YwAKo">Jigokuraku</a> 
+                                </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon" />
+                            <div>
+                                <h3>Bands & Music</h3>
+                                <p>
+                                    <a href="https://youtube.com/@themarias?si=QYZo8Ewl1veoJlKf">The Marias</a> &
+                                    <a href="https://youtu.be/0jzr501QApk?si=lnrrk6QgRhUhxPoj">My Vanilla</a> 
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"alt="arrow icon" class="icon arrow"
+      onclick="location.href='./#experience'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon"/>
+                <p><a href="mailto:natphalinmc@gmail.com">natphalinmc@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/1916008_instagram_logo_media_social_icon.png" alt="Instragram icon" class="icon contact-icon"/>
+                <p><a href=https://www.instagram.com/muccnatph/">muccnatph</a></p>
+            </div>
+        </div>
+    </section>
+    <form>      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+      </form>
+    <script src="script.js"></script>
+    <section id="foot">
+        <p class="foot_text">The concept is simple but fun!
+            I actually lost my original file, so I had to recreate and finish this website in just a few days. It was a bit of a rush, but I think it turned out pretty great in the end. I hope you enjoy it as much as I enjoyed making it!</p>
+    </section>
+</body>
+</html>
